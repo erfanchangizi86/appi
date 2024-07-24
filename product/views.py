@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from django.shortcuts import get_object_or_404
 from product.models import Product
 from .Serializers import ProductSerializer
-
+from django.http import JsonResponse
 
 # Create your views here.
 class SnippetList(APIView):
